@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>People List</title>
+</head>
+<body>
+	<h1>People List</h1>
+	<ul>
+		{{range .}}
+		<li>{{.Name}}, {{.Age}}, {{.Email}}</li>
+		{{end}}
+	</ul>
+</body>
+</html>
